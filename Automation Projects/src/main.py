@@ -108,7 +108,7 @@ def main():
     if success:
         make_csv(
             "Campaign Report.csv",
-            f"Login Credentials,Login With Correct Username & Password,Login Successfull,{url_a}\n",
+            f"Login Credentials,Login With Correct Username & Password,Login Successful,{url_a}\n",
             new=False,
         )
     else:
@@ -125,7 +125,7 @@ def main():
     url_b = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Module,Click on Campaign Button,Successfull,{url_b}\n",
+        f"Campaign Module,Click on Campaign Button,Successful,{url_b}\n",
         new=False,
     )
 
@@ -137,13 +137,13 @@ def main():
     url_c = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Click on Create Campaign Button,Successfull,{url_c}\n",
+        f"Create Campaign,Click on Create Campaign Button,Successful,{url_c}\n",
         new=False,
     )
     time.sleep(1)
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Click select Client,Successfull,{url_c}\n",
+        f"Create Campaign,Click select Client,Successful,{url_c}\n",
         new=False,
     )
     options_list = get_selection_list(
@@ -160,7 +160,7 @@ def main():
     ).text
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Check Special Chracters are not allowed,{pop_nam},{url_c}\n",
+        f"Create Campaign,Check Special Characters are not allowed,{pop_nam},{url_c}\n",
         new=False,
     )
 
@@ -179,7 +179,7 @@ def main():
     ).text
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Check Special Chracters are not allowed,{pop_nam1},{url_c}\n",
+        f"Create Campaign,Check 100 Characters limitation are not allowed,{pop_nam1},{url_c}\n",
         new=False,
     )
 
@@ -192,7 +192,7 @@ def main():
     Cam_page5.send_keys(CreateCampaignModuleResource.Enter_campaign_name, NAME_CAMPAIGN)
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Enter Correct Campaign Name,Successfull,{url_c}\n",
+        f"Create Campaign,Enter Correct Campaign Name,Successful,{url_c}\n",
         new=False,
     )
     time.sleep(1)
@@ -244,7 +244,7 @@ def main():
 
         make_csv(
             "Campaign Report.csv",
-            f"Create Campaign,Enter Correct GMB CID,Successfull,{url_c}\n",
+            f"Create Campaign,Enter Correct GMB CID,Successful,{url_c}\n",
             new=False,
         )
 
@@ -274,7 +274,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Add keywords,Successfull,{url_c}\n",
+        f"Create Campaign,Add keywords,Successful,{url_c}\n",
         new=False,
     )
     time.sleep(2)
@@ -313,7 +313,7 @@ def main():
     url_d = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"In Analysis,Click on In Analysis Button,Successfull,{url_d}\n",
+        f"In Analysis,Click on In Analysis Button,Successful,{url_d}\n",
         new=False,
     )
     time.sleep(5)
@@ -365,7 +365,7 @@ def main():
     Cam_Page12.Click_button(AnalaysisTabResource.Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"Analysis Completed,Click on Analysis Button,Successfull,{url_d}\n",
+        f"Analysis Completed,Click on Analysis Button,Successful,{url_d}\n",
         new=False,
     )
     time.sleep(5)
@@ -407,7 +407,7 @@ def main():
     url_e = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f'Edit Campign,Click on Edit Campign in "Analaysis Completed",Successfull,{url_e}\n',
+        f'Edit Campign,Click on Edit Campign in "Analaysis Completed",Successful,{url_e}\n',
         new=False,
     )
     time.sleep(5)
@@ -425,7 +425,7 @@ def main():
     pop_nam7 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']")
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campign,Check Special Chracters while editing Campaign,{pop_nam7.text},{url_e}\n",
+        f"Edit Campign,Check Special Characters while editing Campaign,{pop_nam7.text},{url_e}\n",
         new=False,
     )
     time.sleep(1)
@@ -442,7 +442,7 @@ def main():
     pop_nam8 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']")
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Check 100 Chracter limitation while editing Campaign,{pop_nam8.text},{url_e}\n",
+        f"Edit Campaign,Check 100 Characters limitation while editing Campaign,{pop_nam8.text},{url_e}\n",
         new=False,
     )
     time.sleep(1)
@@ -457,7 +457,7 @@ def main():
     time.sleep(1)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Enter Correct Campaign Name,Successfull,{url_e}\n",
+        f"Edit Campaign,Enter Correct Campaign Name,Successful,{url_e}\n",
         new=False,
     )
     time.sleep(1)
@@ -490,7 +490,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Remove Keyword,Successfull,{url_e}\n",
+        f"Edit Campaign,Remove Keyword,Successful,{url_e}\n",
         new=False,
     )
 
@@ -501,7 +501,7 @@ def main():
     time.sleep(2)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Add New Keyword,Successfull,{url_e}\n",
+        f"Edit Campaign,Add New Keyword,Successful,{url_e}\n",
         new=False,
     )
     time.sleep(2)
@@ -532,7 +532,7 @@ def main():
     url_f = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Module,Click on Campaign Button,Successfull,{url_f}\n",
+        f"Campaign Module,Click on Campaign Button,Successful,{url_f}\n",
         new=False,
     )
     time.sleep(1)
@@ -543,7 +543,7 @@ def main():
     Cam_Page24.Click_button(InAnalaysisTabResource.In_Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"In Analysis,Click on In Analysis Button,Successfull,{url_f}\n",
+        f"In Analysis,Click on In Analysis Button,Successful,{url_f}\n",
         new=False,
     )
     time.sleep(5)
@@ -595,7 +595,7 @@ def main():
     Cam_Page26.Click_button(AnalaysisTabResource.Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"Analysis Completed,Click on Analysis Button,Successfull,{url_f}\n",
+        f"Analysis Completed,Click on Analysis Button,Successful,{url_f}\n",
         new=False,
     )
     time.sleep(5)
@@ -634,7 +634,7 @@ def main():
     Cam_Page29.Click_button(EditCamapaignResource.live_Camp_btn)
     make_csv(
         "Campaign Report.csv",
-        f"Start Campaign,Start Campaign OR Live Campaign,Successfull,{url_f}\n",
+        f"Start Campaign,Start Campaign OR Live Campaign,Successful,{url_f}\n",
         new=False,
     )
     time.sleep(5)
@@ -682,7 +682,7 @@ def main():
     url_g = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Edit Campaign from Live,Successfull,{url_g}\n",
+        f"Edit Campaign,Edit Campaign from Live,Successful,{url_g}\n",
         new=False,
     )
     time.sleep(1)
@@ -698,7 +698,7 @@ def main():
     pop_nam14 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']").text
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Check Special Chrachter While Edit campaign from live,{pop_nam14},{url_g}\n",
+        f"Edit Campaign,Check Special Characters While Edit campaign from live,{pop_nam14},{url_g}\n",
         new=False,
     )
     time.sleep(1)
@@ -715,7 +715,7 @@ def main():
     pop_nam15 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']").text
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Check 100 Chrachter limitation  While Edit campaign from live,{pop_nam15},{url_g}\n",
+        f"Edit Campaign,Check 100 Characters limitation  While Edit campaign from live,{pop_nam15},{url_g}\n",
         new=False,
     )
     time.sleep(1)
@@ -730,7 +730,7 @@ def main():
     time.sleep(2)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Enter Correct Campaign Name,Successfull,{url_g}\n",
+        f"Edit Campaign,Enter Correct Campaign Name,Successful,{url_g}\n",
         new=False,
     )
 
@@ -759,7 +759,7 @@ def main():
     time.sleep(1)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Remove Keyword while Editing Campaign from Live,Successfull,{url_g}\n",
+        f"Edit Campaign,Remove Keyword while Editing Campaign from Live,Successful,{url_g}\n",
         new=False,
     )
     time.sleep(2)
@@ -768,7 +768,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Add key word while editing campaign from live ,Successfull,{url_g}\n",
+        f"Edit Campaign,Add keyword while editing campaign from live ,Successful,{url_g}\n",
         new=False,
     )
     time.sleep(2)
@@ -783,13 +783,13 @@ def main():
         )
         make_csv(
             "Campaign Report.csv",
-            f"Edit Campaign,Hit Resubmit for anaLysis after edit campaign from live,{pop_name16.text},{url_g}\n",
+            f"Edit Campaign,Hit Resubmit for analysis after edit campaign from live,{pop_name16.text},{url_g}\n",
             new=False,
         )
     except:
         make_csv(
             "Campaign Report.csv",
-            f"Edit Campaign,Hit Resubmit for anaLysis after edit campaign from live,,{url_g}\n",
+            f"Edit Campaign,Hit Resubmit for analysis after edit campaign from live,,{url_g}\n",
             new=False,
         )
     time.sleep(1)
@@ -799,7 +799,7 @@ def main():
     url_h = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Moduel,Click on Campaign Button,Successfull,{url_h}\n",
+        f"Campaign Module,Click on Campaign Button,Successful,{url_h}\n",
         new=False,
     )
     time.sleep(2)
@@ -810,7 +810,7 @@ def main():
     Cam_Page40.Click_button(InAnalaysisTabResource.In_Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"In Analysis,Click on In Analysis Button,Successfull,{url_h}\n",
+        f"In Analysis,Click on In Analysis Button,Successful,{url_h}\n",
         new=False,
     )
     time.sleep(3)
@@ -861,7 +861,7 @@ def main():
     Cam_Page42.Click_button(AnalaysisTabResource.Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"Analysis Completed,Click on Analysis Button,Successfull,{url_h}\n",
+        f"Analysis Completed,Click on Analysis Button,Successful,{url_h}\n",
         new=False,
     )
     time.sleep(5)
@@ -899,7 +899,7 @@ def main():
     Cam_Page45.Click_button(CamPlayPauseAnaResource.CamPlayPauseana_btn1)
     make_csv(
         "Campaign Report.csv",
-        f"Start Campaign,Campaign Live from Play Button from Analysis completed,Successfull,{url_h}\n",
+        f"Start Campaign,Campaign Live from Play Button from Analysis completed,Successful,{url_h}\n",
         new=False,
     )
     time.sleep(1)
@@ -992,7 +992,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Logout,Log out from current User,Successfull,{url_k}\n",
+        f"Logout,Log out from current User,Successful,{url_k}\n",
         new=False,
     )
 
@@ -1005,7 +1005,7 @@ def main():
 
         make_csv(
         "Campaign Report.csv",
-        f"Login,Login with correct username & password to which campaign is assigned,Successfull,{url_k}\n",
+        f"Login,Login with correct username & password to which campaign is assigned,Successful,{url_k}\n",
         new=False,
         )
         make_csv(
@@ -1021,7 +1021,7 @@ def main():
 
         make_csv(
         "Campaign Report.csv",
-        f"Login,Login with correct username & password to which campaign is assigned,Successfull,{url_k}\n",
+        f"Login,Login with correct username & password to which campaign is assigned,Successful,{url_k}\n",
         new=False,
         )
         make_csv(
@@ -1076,7 +1076,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Logout,Log out from current User,Successfull,{url_m}\n",
+        f"Logout,Log out from current User,Successful,{url_m}\n",
         new=False,
     )
 
@@ -1089,7 +1089,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Login,Login with correct username & password,Successfull,{url_m}\n",
+        f"Login,Login with correct username & password,Successful,{url_m}\n",
         new=False,
     )
 
@@ -1127,7 +1127,7 @@ def main():
     url_i = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Click on edit campaign From view report,Successfull,{url_i}\n",
+        f"Edit Campaign,Click on edit campaign From view report,Successful,{url_i}\n",
         new=False,
     )
     time.sleep(2)
@@ -1143,7 +1143,7 @@ def main():
     pop_nam21 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']").text
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Check Special Chrachter While Editing camp from live,{pop_nam21},{url_i}\n",
+        f"Edit Campaign,Check Special Characters While Editing camp from live,{pop_nam21},{url_i}\n",
         new=False,
     )
     time.sleep(1)
@@ -1160,7 +1160,7 @@ def main():
     pop_nam22 = driver.find_element(By.XPATH, "//*[@id='warning-text-id-cam']")
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Check 100 Chrachter limitation  While Editing campaign from live,{pop_nam22.text},{url_i}\n",
+        f"Edit Campaign,Check 100 Characters limitation  While Editing campaign from live,{pop_nam22.text},{url_i}\n",
         new=False,
     )
     time.sleep(1)
@@ -1175,7 +1175,7 @@ def main():
     time.sleep(2)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Enter Correct Campaign Name,Successfull,{url_i}\n",
+        f"Edit Campaign,Enter Correct Campaign Name,Successful,{url_i}\n",
         new=False,
     )
     time.sleep(3)
@@ -1202,7 +1202,7 @@ def main():
     time.sleep(1)
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Remove Keyword while Editing Campaign from view report,Successfull,{url_i}\n",
+        f"Edit Campaign,Remove Keyword while Editing Campaign from view report,Successful,{url_i}\n",
         new=False,
     )
     time.sleep(2)
@@ -1211,7 +1211,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Edit Campaign,Add key word while editing campaign from view report ,Successfull,{url_i}\n",
+        f"Edit Campaign,Add key word while editing campaign from view report ,Successful,{url_i}\n",
         new=False,
     )
     time.sleep(2)
@@ -1242,7 +1242,7 @@ def main():
     url_j = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Moduel,Click on Campaign Button,Successfull,{url_j}\n",
+        f"Campaign Moduel,Click on Campaign Button,Successful,{url_j}\n",
         new=False,
     )
     time.sleep(2)
@@ -1253,7 +1253,7 @@ def main():
     Cam_Page62.Click_button(InAnalaysisTabResource.In_Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"In Analysis,Click on In Analysis Button,Successfull,{url_j}\n",
+        f"In Analysis,Click on In Analysis Button,Successful,{url_j}\n",
         new=False,
     )
     time.sleep(3)
@@ -1307,7 +1307,7 @@ def main():
     Cam_Page64.Click_button(AnalaysisTabResource.Analaysis_btn)
     make_csv(
         "Campaign Report.csv",
-        f"Analysis Completed,Click on Analysis Button,Successfull,{url_j}\n",
+        f"Analysis Completed,Click on Analysis Button,Successful,{url_j}\n",
         new=False,
     )
     time.sleep(5)
@@ -1377,7 +1377,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Delete Campaign,Log out from current User,Successfull,{url_q}\n",
+        f"Delete Campaign,Log out from current User,Successful,{url_q}\n",
         new=False,
     )
 
@@ -1397,7 +1397,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Login,Login with correct username & password,Successfull,{url_r}\n",
+        f"Login,Login with correct username & password,Successful,{url_r}\n",
         new=False,
     )
 
@@ -1409,7 +1409,7 @@ def main():
     url_s = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Module,Click on Campaign Button,Successfull,{url_s}\n",
+        f"Campaign Module,Click on Campaign Button,Successful,{url_s}\n",
         new=False,
     )
 
@@ -1420,7 +1420,7 @@ def main():
     url_t = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Campaign Module,Click on Create Campaign Button,Successfull,{url_t}\n",
+        f"Campaign Module,Click on Create Campaign Button,Successful,{url_t}\n",
         new=False,
     )
     time.sleep(2)
@@ -1434,7 +1434,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Select Client while creating campaign,Successfull,{url_t}\n",
+        f"Create Campaign,Select Client while creating campaign,Successful,{url_t}\n",
         new=False,
     )
 
@@ -1447,7 +1447,7 @@ def main():
     ).text
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Check Special Chracter while Create Campaign,{pop_602},{url_t}\n",
+        f"Create Campaign,Check Special Characters while Create Campaign,{pop_602},{url_t}\n",
         new=False,
     )
 
@@ -1465,7 +1465,7 @@ def main():
     ).text
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Check 100 Chracter limitation while Create Campaign,{pop_603},{url_t}\n",
+        f"Create Campaign,Check 100 Characters limitation while Create Campaign,{pop_603},{url_t}\n",
         new=False,
     )
 
@@ -1478,7 +1478,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Enter Correct Campaign Name while Create Campaign,Successfull,{url_t}\n",
+        f"Create Campaign,Enter Correct Campaign Name while Create Campaign,Successful,{url_t}\n",
         new=False,
     )
 
@@ -1522,7 +1522,7 @@ def main():
     except:
         make_csv(
             "Campaign Report.csv",
-            f"Create Campaign,Enter Correct GMB CID,Successfull,{url_t}\n",
+            f"Create Campaign,Enter Correct GMB CID,Successful,{url_t}\n",
             new=False,
         )
     time.sleep(2)
@@ -1542,7 +1542,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Create Campaign,Add keywords while creating Campaign,Successfull,{url_t}\n",
+        f"Create Campaign,Add keywords while creating Campaign,Successful,{url_t}\n",
         new=False,
     )
 
@@ -1575,7 +1575,7 @@ def main():
     url_u = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"In Analysis,Click on In Analysis Button,Successfull,{url_u}\n",
+        f"In Analysis,Click on In Analysis Button,Successful,{url_u}\n",
         new=False,
     )
     time.sleep(5)
@@ -1626,7 +1626,7 @@ def main():
     url_v = driver.current_url
     make_csv(
         "Campaign Report.csv",
-        f"Analysis Completed,Click on Analysis Button,Successfull,{url_v}\n",
+        f"Analysis Completed,Click on Analysis Button,Successful,{url_v}\n",
         new=False,
     )
     time.sleep(5)
@@ -1668,7 +1668,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f'Submit for approval,Submit campaign for approval from role id 4",Successfull,{url_w}\n',
+        f'Submit for approval,Submit campaign for approval from role id 4",Successful,{url_w}\n',
         new=False,
     )
     time.sleep(3)
@@ -1724,7 +1724,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Delete Campaign,Log out from current User,Successfull,{url_x}\n",
+        f"Delete Campaign,Log out from current User,Successful,{url_x}\n",
         new=False,
     )
 
@@ -1744,7 +1744,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Login,Login with correct username & password,Successfull,{url_y}\n",
+        f"Login,Login with correct username & password,Successful,{url_y}\n",
         new=False,
     )
 
@@ -1794,7 +1794,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-        f"Approve Campaign,Approve campaign of role id 4 from role id 2,Successfull,{url_z}\n",
+        f"Approve Campaign,Approve campaign of role id 4 from role id 2,Successful,{url_z}\n",
         new=False,
     )
 
@@ -1873,7 +1873,7 @@ def main():
 
     make_csv(
         "Campaign Report.csv",
-            f"Delete Campaign,Log out from current User,Successfull,{url_q}\n",
+            f"Delete Campaign,Log out from current User,Successful,{url_q}\n",
             new=False,
     )
 
