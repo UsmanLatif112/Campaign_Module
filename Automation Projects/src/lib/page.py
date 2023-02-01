@@ -9,7 +9,7 @@ class BasePage:
 
 
 class LoginPage(BasePage):
-    url = "https://staging.brandsignals.io//"
+    url = "https://app.brandsignals.io//"
 
     def enter_username(self, xpath: str, username: str):
         self.driver.get(self.url)

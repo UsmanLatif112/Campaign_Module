@@ -1,99 +1,99 @@
 Campaign Module
 Test Case,Scenario,Detailed Result,Urls,Result
 
-Date2023-01-09
-Login Credentials,Login With Correct Username & Password,Login Successful,https://staging.brandsignals.io//
-Campaign Module,Click on Campaign Button,Successful,https://staging.brandsignals.io/campaign/
-Create Campaign,Click on Create Campaign Button,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Click select Client,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check Special Characters are not allowed,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check 100 Characters limitation are not allowed,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Enter Correct Campaign Name,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check GMB Cid limit,GMB CID should be less than 21 characters,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Enter Correct GMB CID,This Business already exists and was created by Usman_au_testing,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Add keywords,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Click on Submit for Analysis,,https://staging.brandsignals.io/campaign/create/
-In Analysis,Click on In Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "IN Analysis Tab",,https://staging.brandsignals.io/campaign/
-Analysis Completed,Click on Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "Analysis Completed Tab",UsmanLf13492,https://staging.brandsignals.io/campaign/
-Edit Campign,Click on Edit Campign in "Analaysis Completed",Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campign,Check Special Characters while editing Campaign,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Check 100 Characters limitation while editing Campaign,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Enter Correct Campaign Name,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Click On Update Bussiness,Bussiness Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Remove Keyword,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Add New Keyword,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Hit Resubmit for analysis,Campaign Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Campaign Module,Click on Campaign Button,Successful,https://staging.brandsignals.io/campaign/
-In Analysis,Click on In Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "IN Analysis Tab",UsmanLf1349,https://staging.brandsignals.io/campaign/
-Analysis Completed,Click on Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "Analysis Completed Tab",UsmanLf1349,https://staging.brandsignals.io/campaign/
-Start Campaign,Start Campaign OR Live Campaign,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "Live Tab",UsmanLf1349,https://staging.brandsignals.io/campaign/
-Edit Campaign,Edit Campaign from Live,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Check Special Characters While Edit campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Check 100 Characters limitation  While Edit campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Enter Correct Campaign Name,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Click on Update Bussiness,Bussiness Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Remove Keyword while Editing Campaign from Live,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Add keyword while editing campaign from live ,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Hit Resubmit for analysis after edit campaign from live,Campaign Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Campaign Module,Click on Campaign Button,Successful,https://staging.brandsignals.io/campaign/
-In Analysis,Click on In Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "IN Analysis Tab",UsmanLf134,https://staging.brandsignals.io/campaign/
-Analysis Completed,Click on Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Created Campaign in "Analysis Completed Tab",UsmanLf134,https://staging.brandsignals.io/campaign/
-Start Campaign,Campaign Live from Play Button from Analysis completed,Successful,https://staging.brandsignals.io/campaign/
-Search campaign,Search Created Campaign in "Live Tab",UsmanLf134,https://staging.brandsignals.io/campaign/
-Assign Campaign,Assign camopaign To user(User Selected ),Usman0001www,https://staging.brandsignals.io/campaign/
-Assign Campaign,Assign User to Campaign,,https://staging.brandsignals.io/campaign/
-Logout,Log out from current User,Successful,https://staging.brandsignals.io/login/
-Login,Login with correct username & password to which campaign is assigned,Successful,https://staging.brandsignals.io/login/
-login Credentials,User Name:Usman0001www,Password:Usman@112
-Assigned Campaign,Search Campaign that assign to User by login this user,UsmanLf134,https://staging.brandsignals.io/campaign/
-Logout,Log out from current User,Successful,https://staging.brandsignals.io/login/
-Login,Login with correct username & password,Successful,https://staging.brandsignals.io/login/
-Edit Campaign,Click on edit campaign From view report,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Check Special Characters While Editing camp from live,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Check 100 Characters limitation  While Editing campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Enter Correct Campaign Name,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Click on Update Bussiness,Bussiness Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Remove Keyword while Editing Campaign from view report,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Add key word while editing campaign from view report ,Successful,https://staging.brandsignals.io/campaign/edit/16569
-Edit Campaign,Hit Resubmit for anaLysis after edit campaign from view report,Campaign Updated Successfully!,https://staging.brandsignals.io/campaign/edit/16569
-Campaign Moduel,Click on Campaign Button,Successful,https://staging.brandsignals.io/campaign/
-In Analysis,Click on In Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Campaign Moduel,Search Campaign in "IN Analysis Tab" after edit campaign from view report,UsmanLf13,https://staging.brandsignals.io/campaign/
-Analysis Completed,Click on Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Campaign in "Analysis Completed Tab" after edit campaign from view report",UsmanLf13,https://staging.brandsignals.io/campaign/
-Delete Campaign,Delete Campaign from Analysis Completed,Campaign Deleted Successfully!,https://staging.brandsignals.io/campaign/
-Delete Campaign,Log out from current User,Successful,https://staging.brandsignals.io/login/
-login Credentials,User Name:Usman_AU_Testing,Password:Usman@112
-Login,Login with correct username & password,Successful,https://staging.brandsignals.io//
-Campaign Module,Click on Campaign Button,Successful,https://staging.brandsignals.io/campaign/
-Campaign Module,Click on Create Campaign Button,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Select Client while creating campaign,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check Special Characters while Create Campaign,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check 100 Characters limitation while Create Campaign,Campaign name should be 100 characters and no special characters are allowed,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Enter Correct Campaign Name while Create Campaign,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Check GMB_CID limitation while Create Campaign,GMB CID should be less than 21 characters,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Enter Correct GMB CID,This Business already exists and was created by Usman_au_testing_4,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Add keywords while creating Campaign,Successful,https://staging.brandsignals.io/campaign/create/
-Create Campaign,Click on Submit for Analysis after enter correct data in all fields,Campaign Created Successfully,https://staging.brandsignals.io/campaign/create/
-In Analysis,Click on In Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Campaign Moduel,Search Campaign in "IN Analysis Tab" after Create campaign from role id 4,,https://staging.brandsignals.io/campaign/
-Analysis Completed,Click on Analysis Button,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Campaign in "Analysis Completed Tab" after Create campaign from role id 4",UsmanLf13492,https://staging.brandsignals.io/campaign/
-Submit for approval,Submit campaign for approval from role id 4",Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Campaign in Pending for approval in role id 4",UsmanLf13492,https://staging.brandsignals.io/campaign/
-Delete Campaign,Log out from current User,Successful,https://staging.brandsignals.io/login/
-login Credentials,User Name:Usman_AU_Testing_4,Password:Usman@112
-Login,Login with correct username & password,Successful,https://staging.brandsignals.io//
-Search Campaign,Search Campaign in Pending for approval in role id 2",UsmanLf13492,https://staging.brandsignals.io/campaign/
-Approve Campaign,Approve campaign of role id 4 from role id 2,Successful,https://staging.brandsignals.io/campaign/
-Search Campaign,Search Campaign in "Live Tab" after Approve campaign from pending approval",UsmanLf13492,https://staging.brandsignals.io/campaign/
-Delete Campaign,Delete Campaign from Analysis Completed,,https://staging.brandsignals.io/campaign/
-Delete Campaign,Log out from current User,Successful,https://staging.brandsignals.io/login/
-login Credentials,User Name:Usman_AU_Testing,Password:Usman@112
+Date2023-02-01
+Login Credentials,Login With Correct Username & Password,Login Successful,https://app.brandsignals.io//
+Campaign Module,Click on Campaign Button,Successful,https://app.brandsignals.io/campaign/
+Create Campaign,Click on Create Campaign Button,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Click select Client,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check Special Characters are not allowed,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check 100 Characters limitation are not allowed,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/create/
+Create Campaign,Enter Correct Campaign Name,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check GMB Cid limit,GMB CID should be less than 21 characters,https://app.brandsignals.io/campaign/create/
+Create Campaign,Enter Correct GMB CID,This Business already exists and was created by Aimal_m18,https://app.brandsignals.io/campaign/create/
+Create Campaign,Add keywords,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Click on Submit for Analysis,Campaign Created Successfully,https://app.brandsignals.io/campaign/create/
+In Analysis,Click on In Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "IN Analysis Tab",Aimalraza054,https://app.brandsignals.io/campaign/
+Analysis Completed,Click on Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "Analysis Completed Tab",Aimalraza054,https://app.brandsignals.io/campaign/
+Edit Campign,Click on Edit Campign in "Analaysis Completed",Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campign,Check Special Characters while editing Campaign,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Check 100 Characters limitation while editing Campaign,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Enter Correct Campaign Name,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Click On Update Bussiness,Bussiness Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Remove Keyword,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Add New Keyword,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Hit Resubmit for analysis,Campaign Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Campaign Module,Click on Campaign Button,Successful,https://app.brandsignals.io/campaign/
+In Analysis,Click on In Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "IN Analysis Tab",,https://app.brandsignals.io/campaign/
+Analysis Completed,Click on Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "Analysis Completed Tab",Aimalraza083,https://app.brandsignals.io/campaign/
+Start Campaign,Start Campaign OR Live Campaign,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "Live Tab",Aimalraza083,https://app.brandsignals.io/campaign/
+Edit Campaign,Edit Campaign from Live,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Check Special Characters While Edit campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Check 100 Characters limitation  While Edit campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Enter Correct Campaign Name,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Click on Update Bussiness,Bussiness Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Remove Keyword while Editing Campaign from Live,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Add keyword while editing campaign from live ,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Hit Resubmit for analysis after edit campaign from live,Campaign Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Campaign Module,Click on Campaign Button,Successful,https://app.brandsignals.io/campaign/
+In Analysis,Click on In Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "IN Analysis Tab",,https://app.brandsignals.io/campaign/
+Analysis Completed,Click on Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Created Campaign in "Analysis Completed Tab",Aimalraza349,https://app.brandsignals.io/campaign/
+Start Campaign,Campaign Live from Play Button from Analysis completed,Successful,https://app.brandsignals.io/campaign/
+Search campaign,Search Created Campaign in "Live Tab",Aimalraza349,https://app.brandsignals.io/campaign/
+Assign Campaign,Assign camopaign To user(User Selected ),Aimal_M99,https://app.brandsignals.io/campaign/
+Assign Campaign,Assign User to Campaign,Campaign Assigned Successfully!,https://app.brandsignals.io/campaign/
+Logout,Log out from current User,Successful,https://app.brandsignals.io/login/
+Login,Login with correct username & password to which campaign is assigned,Successful,https://app.brandsignals.io/login/
+login Credentials,User Name:Aimal_M99,Password:Aimal@11
+Assigned Campaign,Search Campaign that assign to User by login this user,Aimalraza349,https://app.brandsignals.io/campaign/
+Logout,Log out from current User,Successful,https://app.brandsignals.io/login/
+Login,Login with correct username & password,Successful,https://app.brandsignals.io/login/
+Edit Campaign,Click on edit campaign From view report,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Check Special Characters While Editing camp from live,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Check 100 Characters limitation  While Editing campaign from live,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Enter Correct Campaign Name,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Click on Update Bussiness,Bussiness Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Remove Keyword while Editing Campaign from view report,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Add key word while editing campaign from view report ,Successful,https://app.brandsignals.io/campaign/edit/16429
+Edit Campaign,Hit Resubmit for anaLysis after edit campaign from view report,Campaign Updated Successfully!,https://app.brandsignals.io/campaign/edit/16429
+Campaign Moduel,Click on Campaign Button,Successful,https://app.brandsignals.io/campaign/
+In Analysis,Click on In Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Campaign Moduel,Search Campaign in "IN Analysis Tab" after edit campaign from view report,Aimalraza782,https://app.brandsignals.io/campaign/
+Analysis Completed,Click on Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Campaign in "Analysis Completed Tab" after edit campaign from view report",Aimalraza782,https://app.brandsignals.io/campaign/
+Delete Campaign,Delete Campaign from Analysis Completed,Campaign Deleted Successfully!,https://app.brandsignals.io/campaign/
+Delete Campaign,Log out from current User,Successful,https://app.brandsignals.io/login/
+login Credentials,User Name:Aimal_M18,Password:Aimal@11
+Login,Login with correct username & password,Successful,https://app.brandsignals.io//
+Campaign Module,Click on Campaign Button,Successful,https://app.brandsignals.io/campaign/
+Campaign Module,Click on Create Campaign Button,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Select Client while creating campaign,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check Special Characters while Create Campaign,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check 100 Characters limitation while Create Campaign,Campaign name should be 100 characters and no special characters are allowed,https://app.brandsignals.io/campaign/create/
+Create Campaign,Enter Correct Campaign Name while Create Campaign,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Check GMB_CID limitation while Create Campaign,GMB CID should be less than 21 characters,https://app.brandsignals.io/campaign/create/
+Create Campaign,Enter Correct GMB CID,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Add keywords while creating Campaign,Successful,https://app.brandsignals.io/campaign/create/
+Create Campaign,Click on Submit for Analysis after enter correct data in all fields,Campaign Created Successfully,https://app.brandsignals.io/campaign/create/
+In Analysis,Click on In Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Campaign Moduel,Search Campaign in "IN Analysis Tab" after Create campaign from role id 4,,https://app.brandsignals.io/campaign/
+Analysis Completed,Click on Analysis Button,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Campaign in "Analysis Completed Tab" after Create campaign from role id 4",Aimalraza649,https://app.brandsignals.io/campaign/
+Submit for approval,Submit campaign for approval from role id 4",Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Campaign in Pending for approval in role id 4",Aimalraza649,https://app.brandsignals.io/campaign/
+Delete Campaign,Log out from current User,Successful,https://app.brandsignals.io/login/
+login Credentials,User Name:1Aimal_4,Password:Aimal@11
+Login,Login with correct username & password,Successful,https://app.brandsignals.io//
+Search Campaign,Search Campaign in Pending for approval in role id 2",Aimalraza649,https://app.brandsignals.io/campaign/
+Approve Campaign,Approve campaign of role id 4 from role id 2,Successful,https://app.brandsignals.io/campaign/
+Search Campaign,Search Campaign in "Live Tab" after Approve campaign from pending approval",Aimalraza649,https://app.brandsignals.io/campaign/
+Delete Campaign,Delete Campaign from Analysis Completed,,https://app.brandsignals.io/campaign/
+Delete Campaign,Log out from current User,Successful,https://app.brandsignals.io/login/
+login Credentials,User Name:Aimal_M18,Password:Aimal@11

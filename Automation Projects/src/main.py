@@ -47,24 +47,24 @@ from lib.resources import (
 
 # Credentials===
 
-USER_NAME = "Usman_AU_Testing"
-PASS_WORD = "Usman@112"
-USER_NAME_4 = "Usman_AU_Testing_4"
-pass_word_1 = "Usman@112"
+USER_NAME = "Aimal_M18"
+PASS_WORD = "Aimal@11"
+USER_NAME_4 = "1Aimal_4"
+pass_word_1 = "Aimal@11"
 
 # Camapign Names===
 
-NAME_CAMPAIGN = "UsmanLf13492"
-NAME_CAMPAIGN_EDIT_ANA = "UsmanLf1349"
-NAME_CAMPAIGN_EDIT_LIV = "UsmanLf134"
-NAME_CAMPAIGN_EDIT_V_RE = "UsmanLf13"
-NAME_CAMPAIGN_4 = "UsmanLf13492"
-NAME_CAMPAIGN_4_edit = "UsmanLf13492"
+NAME_CAMPAIGN = "Aimalraza054"
+NAME_CAMPAIGN_EDIT_ANA = "Aimalraza083"
+NAME_CAMPAIGN_EDIT_LIV = "Aimalraza349"
+NAME_CAMPAIGN_EDIT_V_RE = "Aimalraza782"
+NAME_CAMPAIGN_4 = "Aimalraza649"
+NAME_CAMPAIGN_4_edit = "Aimalraza3467"
 
 # GMBCID===
 
-GMB_CID = "7010953393527951581"
-GMB_CID_4 = "3849147761326178751"
+GMB_CID = "6867010774265153825"
+GMB_CID_4 = "9941505210792148792"
 
 # input==
 
@@ -103,7 +103,7 @@ def main():
         new=False,
     )
     make_csv("Campaign Report.csv", '\n', new=False)
-    make_csv("Campaign Report.csv", f'Date{today}\n', new=False)
+    make_csv("Campaign Report.csv", f'Date: {today}\n', new=False)
 
     if success:
         make_csv(
@@ -267,17 +267,17 @@ def main():
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
-    time.sleep(2)
+    time.sleep(3)
     get_key_word(driver)
 
-    time.sleep(2)
+    time.sleep(3)
 
     make_csv(
         "Campaign Report.csv",
         f"Create Campaign,Add keywords,Successful,{url_c}\n",
         new=False,
     )
-    time.sleep(2)
+    time.sleep(3)
     
 
     Cam_Page10 = Click(driver)
@@ -494,17 +494,17 @@ def main():
         new=False,
     )
 
-    time.sleep(2)
+    time.sleep(3)
 
     get_key_words(driver)
 
-    time.sleep(2)
+    time.sleep(3)
     make_csv(
         "Campaign Report.csv",
         f"Edit Campaign,Add New Keyword,Successful,{url_e}\n",
         new=False,
     )
-    time.sleep(2)
+    time.sleep(3)
 
     Cam_Page22 = Click(driver)
     Cam_Page22.Click_button(CreateCampaignModuleResource.Edit_camapaign)
@@ -1205,7 +1205,7 @@ def main():
         f"Edit Campaign,Remove Keyword while Editing Campaign from view report,Successful,{url_i}\n",
         new=False,
     )
-    time.sleep(2)
+    time.sleep(3)
 
     get_key_words(driver)
 
@@ -1214,7 +1214,7 @@ def main():
         f"Edit Campaign,Add key word while editing campaign from view report ,Successful,{url_i}\n",
         new=False,
     )
-    time.sleep(2)
+    time.sleep(3)
 
     Cam_Page60 = Click(driver)
     Cam_Page60.Click_button(CreateCampaignModuleResource.cam_re_btn)
@@ -1835,14 +1835,14 @@ def main():
 
     # Delete campaign from live tab====
 
-    Cam_Page624 = Click(driver)
-    Cam_Page624.Click_button(RoleIdResources.del_cam)
-    time.sleep(3)
-    Cam_Page625 = Click(driver)
-    Cam_Page625.Click_button(RoleIdResources.del_cam1)
-    time.sleep(3)
-    Cam_Page626 = Click(driver)
-    Cam_Page626.Click_button(RoleIdResources.del_cam_ok1)
+    # Cam_Page624 = Click(driver)
+    # Cam_Page624.Click_button(RoleIdResources.del_cam)
+    # time.sleep(3)
+    # Cam_Page625 = Click(driver)
+    # Cam_Page625.Click_button(RoleIdResources.del_cam1)
+    # time.sleep(3)
+    # Cam_Page626 = Click(driver)
+    # Cam_Page626.Click_button(RoleIdResources.del_cam_ok1)
 
     try:
         pop_name626 = WebDriverWait(driver, 10).until(
